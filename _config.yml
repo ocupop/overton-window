@@ -13,7 +13,7 @@ facebook:
   description: 'Fight facism. Resist extremism. Defend the window.'
   featured_image: '/img/defend.svg'
 twitter:
-  username: ''
+  username: '@defendthewindow'
   title: Defend the Window
   featured_image: '/img/defend.svg'
   image_alt_text: 'Defend the Window'

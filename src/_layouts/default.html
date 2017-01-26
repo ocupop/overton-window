@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en_US" />
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fav and Touch Icons -->
+    <link rel="icon" type="image/png" href="favicon.png">
+     
+     {% if site.facebook.title %}
+     <meta property="og:title" content="{{ site.facebook.title }}">
+     <meta property="og:description" content="{{ site.facebook.description }}">
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="{{ page.url | prepend: site.url }}">
+     <meta property="og:image" content="{{ site.facebook.featured_image }}">
+     <meta property="og:image:type" content="image/jpg">
+     <meta property="og:image:width" content="1200">
+     <meta property="og:image:height" content="600">
+     {% endif %}
+     
+     {% if site.twitter.title %}
+     <meta name="twitter:card" content="summary_large_image">
+     <meta name="twitter:site" content="{{ site.twitter.username }}">
+     <meta name="twitter:creator" content="{{ site.twitter.username }}">
+     <meta name="twitter:title" content="{{ site.twitter.title }}">
+     <meta name="twitter:description" content="{{ site.twitter.description }}">
+     <meta name="twitter:image" content="{{ site.twitter.featured_image }}">
+     <meta name="twitter:image:alt" content="{{ site.twitter.image_alt_text }}">
+    {% endif %}
+
+    <!-- Fonts -->
+   <script src="https://use.typekit.net/nwn4rvt.js"></script>
+   <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/splash.css">
+  </head>
+  <body class="{{ page.layout }}">
+    <div id="sidebar"></div>
+    <main id="page-content">
+      <div id="topnav">
+        <a href="#get-stickers" class="btn">Get Stickers</a>
+        <a href="#download-print" class="btn">Download and Print</a>
+      </div>
+      {{ content }}
+    </main>
+  </body>
+</html>

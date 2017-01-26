@@ -1,0 +1,90 @@
+
+.clearfix {
+  *zoom: 1;
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// Spacing
+.content {
+  position: relative;
+  padding: 20px;
+  @extend .clearfix;
+}
+
+img.pull-left {
+  margin-right: 12px;
+}
+img.pull-right {
+  margin-left: 12px;
+}
+
+.bg-gray-dark {
+  background-color: $gray-dark;
+  color: #fff;
+  .btn {
+    color: #fff;
+    border: 1px solid #fff;
+  }
+}
+
+.ol-styled {
+  list-style: none;
+  padding-left: 0;
+  li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-left: 90px;
+    position: relative;
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -30px;
+      line-height: 1;
+      width: 60px;
+      height: 60px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    &.one {
+      &:before {
+        background-image: url(/img/overtonwindow_1.svg);
+      }
+    }
+    &.two {
+      &:before {
+        background-image: url(/img/overtonwindow_2.svg);
+      }
+    }
+    &.three {
+      &:before {
+        background-image: url(/img/overtonwindow_3.svg);
+      }
+    }
+  }  
+}
+
+.icon {
+  width: 42px;
+  height: 42px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 0 10px;
+  display: inline-block;
+  &.facebook {
+    background-image: url(/img/facebook.svg);
+  }
+  &.twitter {
+    background-image: url(/img/twitter.svg);
+  }
+}

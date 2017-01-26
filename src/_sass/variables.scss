@@ -1,0 +1,18 @@
+// Color Palette
+// -------------------------
+
+$gray-darker:            #302e2f;
+$gray-dark:              #272729;
+$gray:                   #757575;
+$gray-light:             #e9e9e3;
+$gray-lighter:           #eeeeee;
+$red:                    #e9262a;
+
+$body-bg:               #ffffff;
+$text-color:            #404041;
+$brand-primary:         #72b341;
+
+$link-color:            $brand-primary;
+$link-hover-color:      darken($link-color, 15%);
+
+$font-family:           "din-2014", sans-serif;

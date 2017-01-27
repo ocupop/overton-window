@@ -31,6 +31,10 @@ img.pull-right {
   .btn {
     color: #fff;
     border: 1px solid #fff;
+    &:hover, &:focus, &:active {
+      background-color: #fff;
+      color: $gray-dark;
+    }
   }
 }
 
@@ -81,10 +85,4 @@ img.pull-right {
   background-repeat: no-repeat;
   margin: 0 10px;
   display: inline-block;
-  &.facebook {
-    background-image: url(/img/facebook.svg);
-  }
-  &.twitter {
-    background-image: url(/img/twitter.svg);
-  }
 }

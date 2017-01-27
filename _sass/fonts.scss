@@ -1,18 +1,18 @@
-$custom-font-name: 'project_name';
+
 @font-face {
-  font-family: $custom-font-name;
-  src:  url('/fonts/${custom-font-name}.eot?i6fit0');
-  src:  url('/fonts/${custom-font-name}.eot?i6fit0#iefix') format('embedded-opentype'),
-    url('/fonts/${custom-font-name}.ttf?i6fit0') format('truetype'),
-    url('/fonts/${custom-font-name}.woff?i6fit0') format('woff'),
-    url('/fonts/${custom-font-name}.svg?i6fit0#${custom-font-name}') format('svg');
+  font-family: overton-window;
+  src:  url('/img/fonts/overton-window.eot?i6fit0');
+  src:  url('/img/fonts/overton-window.eot?i6fit0#iefix') format('embedded-opentype'),
+    url('/img/fonts/overton-window.ttf?i6fit0') format('truetype'),
+    url('/img/fonts/overton-window.woff?i6fit0') format('woff'),
+    url('/img/fonts/overton-window.svg?i6fit0#${custom-font-name}') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change /img/fonts */
-  font-family: '${custom-font-name}' !important;
+  /* use !important to prevent issues with browser extensions that change /img/img/fonts */
+  font-family: 'overton-window' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -25,9 +25,10 @@ $custom-font-name: 'project_name';
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Content declarations
-/*
- .icon-example:before {
-   content: "\e900";
- }
-*/
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-twitter:before {
+  content: "\e901";
+}
+

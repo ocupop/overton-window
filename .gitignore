@@ -2,6 +2,9 @@
 .sass-cache
 .bundle
 .jekyll-metadata
+#.ruby-gemset
+#.ruby-version
+#.Gemfile.lock
 
 _site
 src/libs

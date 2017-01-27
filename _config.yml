@@ -19,6 +19,4 @@ twitter:
   image_alt_text: 'Defend the Window'
 
 # Build settings
-safe: true
-source: src
 include: ["_pages"]

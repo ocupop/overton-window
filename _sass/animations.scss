@@ -1,17 +1,3 @@
-@mixin animation($effect: fadeIn,  $duration: 0.5s, $delay: 0s) {
-  -webkit-animation-name: $effect;
-  animation-name: $effect;
-
-  -webkit-animation-duration: $duration;
-  animation-duration: $duration;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both;
-
-   -webkit-animation-delay: ($delay);
-  -moz-animation-delay: ($delay);
-  animation-delay: ($delay);
-}
-
 // CARD SLIDE IN
 @-webkit-keyframes cardSlideIn {
   from {

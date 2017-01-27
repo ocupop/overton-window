@@ -1,7 +1,7 @@
 # Site settings
 title: Overton Window
 email: dev@ocupop.com
-description: 'Fight facism. Resist extremism. Defend the window.'
+description: 'Fight fascism. Resist extremism. Defend the window.'
 url: "http://defendthewindow.com"
 permalink: /:title
 
@@ -10,12 +10,12 @@ permalink: /:title
 # Images for this Card should be at least 280px in width, and at least 150px in height. Image must be less than 1MB in size.
 facebook:
   title: 'Defend the Window'
-  description: 'Fight facism. Resist extremism. Defend the window.'
+  description: 'Fight fascism. Resist extremism. Defend the window.'
   featured_image: '/img/og-image.jpg'
 twitter:
   username: '@defendthewindow'
   title: 'Defend the Window'
-  description: 'Defend the Overton Window'
+  description: 'Fight fascism. Resist extremism. Defend the window.'
   featured_image: '/img/twitter-share-280-150.jpg'
   image_alt_text: 'Defend the Window'
 

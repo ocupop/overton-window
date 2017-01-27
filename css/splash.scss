@@ -182,15 +182,35 @@ small {
       margin-bottom: 10px;
       padding-top: 20px;
       padding-bottom: 20px;
+      line-height: 1;
     }  
   }
 }
 
 @media(max-width: 500px) {
+  #topnav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    text-align: center;
+    .btn {
+      width: 125px;
+      font-size: 12px;
+    }
+  }
   #sidebar {
     height: 250px;
   }
   #defend {
     margin-top: -100px;
+  }
+  .ol-styled {
+    li {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 1;
+    }  
   }
 }

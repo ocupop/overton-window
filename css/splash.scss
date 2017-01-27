@@ -144,6 +144,7 @@ small {
     width: 100%;
     height: 400px;
     background-position: center center;
+    background-image: url(https://unsplash.it/992/400?image=1078);
   }
   .container {
     width: 100%;
@@ -221,6 +222,7 @@ small {
   }
   #sidebar {
     height: 250px;
+    background-size: contain;
   }
   #defend {
     margin-top: -100px;

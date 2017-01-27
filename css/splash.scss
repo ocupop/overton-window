@@ -171,6 +171,9 @@ small {
   }
   #social {
     text-align: center;
+    h1 {
+      line-height: 1.5;
+    }
     img {
       margin: 0 auto;
     }
@@ -179,13 +182,13 @@ small {
     }
   }
   h1, .h1 {
-    font-size: 27px;
+    font-size: 30px;
   }
   h2, .h2 {
-    font-size: 23px;
+    font-size: 25px;
   }
   p {
-    font-size: 20px;
+    font-size: 22px;
   }
   .btn {
     margin: 15px auto;
@@ -202,6 +205,15 @@ small {
 }
 
 @media(max-width: 500px) {
+  h1, .h1 {
+    font-size: 27px;
+  }
+  h2, .h2 {
+    font-size: 23px;
+  }
+  p {
+    font-size: 20px;
+  }
   #topnav {
     .btn {
       width: 125px;

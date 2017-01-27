@@ -11,7 +11,7 @@ permalink: /:title
 facebook:
   title: 'Defend the Window'
   description: 'Fight facism. Resist extremism. Defend the window.'
-  featured_image: '/img/defend.svg'
+  featured_image: '/img/og-image.jpg'
 twitter:
   username: '@defendthewindow'
   title: Defend the Window

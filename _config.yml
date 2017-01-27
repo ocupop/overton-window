@@ -14,7 +14,8 @@ facebook:
   featured_image: '/img/og-image.jpg'
 twitter:
   username: '@defendthewindow'
-  title: Defend the Window
+  title: 'Defend the Window'
+  description: 'Defend the Overton Window'
   featured_image: '/img/defend.svg'
   image_alt_text: 'Defend the Window'
 

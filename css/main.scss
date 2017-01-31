@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 { font-size: 60px; color: $red; }
 .h1 { font-size: 60px; }
-h2, .h2 { font-size: 45px; }
+h2, .h2 { font-size: 40px; }
 p  { font-size: 25px; }
 
 small {
@@ -46,7 +46,7 @@ small {
 
 #page-content {
   padding-left: 30%;
-  background-image: url(https://unsplash.it/4000/4000);
+  background-image: url(/img/overtonwindow-image-03.jpg);
   background-size: cover;
   background-position: top left;
 }

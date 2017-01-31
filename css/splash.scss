@@ -29,13 +29,17 @@ section {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
-h1 { font-size: 60px; color: $red; }
+h1 { 
+  font-size: 60px; 
+  color: $red; 
+  margin-bottom: 10px;
+}
 .h1 { font-size: 60px; }
-h2, .h2 { font-size: 45px; }
+h2, .h2 { font-size: 40px; }
 p  { font-size: 25px; }
 
 small {
-  font-size: 12px;
+  font-size: 14px;
   display: inline-block;
   line-height: 1;
 }
@@ -53,7 +57,7 @@ small {
 #sidebar {
   position: fixed;
   width: 25%;
-  background-image: url(https://unsplash.it/1500/1500?image=1078);
+  background-image: url(/img/overtonwindow-image-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
@@ -76,9 +80,10 @@ small {
 }
 
 #social {
-  span {
+  span, h2 {
     color: $red;
   }
+  
   a {
     margin-left: 5px;
     margin-right: 5px;
@@ -145,7 +150,7 @@ small {
     height: 400px;
     background-position: center center;
     background-size: cover;
-    background-image: url(https://unsplash.it/992/400?image=1078);
+    // background-image: url(https://unsplash.it/992/400?image=1078);
   }
   .container {
     width: 100%;
@@ -172,7 +177,7 @@ small {
   }
   #social {
     text-align: center;
-    h1 {
+    h2 {
       line-height: 1.5;
     }
     img {
@@ -217,8 +222,8 @@ small {
   }
   #topnav {
     .btn {
-      width: 125px;
-      font-size: 12px;
+      width: 110px;
+      font-size: 11px;
     }
   }
   #sidebar {

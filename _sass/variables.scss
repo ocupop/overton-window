@@ -10,7 +10,7 @@ $red:                    #e9262a;
 
 $body-bg:               #ffffff;
 $text-color:            #404041;
-$brand-primary:         #72b341;
+$brand-primary:         $red;
 
 $link-color:            $brand-primary;
 $link-hover-color:      darken($link-color, 15%);
